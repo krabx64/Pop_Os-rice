@@ -9,15 +9,31 @@ This fork aims to make dock minimal and optimized
 
 - uses  "zenity" tool for guide [temporary]
 
-Required packages: `dbus-x11`
+Required packages: `dbus-x11` `gnome-extensions`
 
-- clone the repo : `https://github.com/M30303/Pop-os-rice.git`
+- clone the repo : `https://github.com/krabx64/Pop_Os-rice.git`
 -  make the script executable.`dock.sh`
 - the script will prompt you to select a color using a color-picker dialog box.
 - reload cosmic DE 
 
 
+<details>
+  <summary>
+    <a href="https://github.com/Aylur/gnome-extensions">widget-shell-extension</a>
+    
+  </summary>
+  <pre>
+  
+Battery Bar, Dash Board, DateMenu Mod, Media Player, Power Menu, Workspace Indicator, Notification Indicator, Modified Quick Settings, Background Clock.
 
-   
+</pre>
+</details>
 
+
+### Extension adding-manually 
+
+- Copy the folder to ~/.local/share/gnome-shell/extensions directory
+- Once you have the files copied into the correct directory, go inside it and open the metadata.json file. Look for the value of uuid.
+- Make sure that the name of the extension’s folder is the same as the value of uuid in the metadata.json file. If not, rename the directory to the value of this uuid.
+- reload gnome shell.
 
