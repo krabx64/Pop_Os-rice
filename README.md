@@ -29,14 +29,11 @@ Battery Bar, Dash Board, DateMenu Mod, Media Player, Power Menu, Workspace Indic
 </pre>
 </details>
 
-<details>
-  <summary>
-    <a href="https://extensions.gnome.org"> Extension adding-manually </a>
 
-Copy the folder to ~/.local/share/gnome-shell/extensions directory
-Once you have the files copied into the correct directory, go inside it and open the metadata.json file. Look for the value of uuid.
-Make sure that the name of the extension’s folder is the same as the value of uuid in the metadata.json file. If not, rename the directory to the value of this uuid.
-reload gnome shell.
+### Extension adding-manually 
 
-</pre>
-</details>
+- Copy the folder to ~/.local/share/gnome-shell/extensions directory
+- Once you have the files copied into the correct directory, go inside it and open the metadata.json file. Look for the value of uuid.
+- Make sure that the name of the extension’s folder is the same as the value of uuid in the metadata.json file. If not, rename the directory to the value of this uuid.
+- reload gnome shell.
+
